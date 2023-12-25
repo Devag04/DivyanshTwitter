@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twitter page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@1,300&display=swap');
+        body{
+            background-color: rgb(43, 40, 78);
+        }
+        #one{
+            align-content: center;
+            background-color: black;
+            border:2px solid black;
+            width: 500px;
+            height:400px;
+            margin-left: 275px;
+            margin-top: 50px;
+            border-radius: 15px;
+        }
+        #one1{
+            margin-top: 10px;
+            color: white;
+            display: flex;
+        }
+        #button{
+            background-color: black;
+            color: white;
+            border-color: black;
+            
+        }
+        #one2{
+            color: white;
+            margin-left:150px ;
+            margin-top:10px;
+            font-size: 20px;
+            
+        }
+        .one3 {
+            margin-left: 150px;
+            margin-top: 15px;
+            width: 220px;
+            background-color: white;
+            color: black;
+            border-radius: 15px;
+            height: 27px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-size: 12px;
+        }
+        #one4{
+            font-weight: 600;
+        }
+        #one5{
+            color: white;
+            border: 2px solid white;
+            box-sizing: border-box;
+            width: 220px;
+            margin-left: 150px;
+            margin-top: 15px;
+            padding-left: 90px;
+            
+            text-decoration-color: white;
+        }
+        #info{
+            
+            margin-left: 150px;
+            margin-top: 15px;
+            display: flex;
+            padding-top: 5px;
+        }
+        .one6 {
+            border: 1px solid gray;
+            margin-left: 150px;
+            margin-top: 15px;
+            width: 220px;
+            background-color: black;
+            color: white;
+            border-radius: 15px;
+            height: 27px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-size: 12px;
+        }
+        input[type="text"], textarea {
+            background-color : black;
+            color: grey; 
+            padding-top: 50px;
+        }
+        .one7{
+            margin-left: 150px;
+            margin-top: 15px;
+            width: 220px;
+            background-color: black;
+            color: grey;
+            border-radius: 15px;
+            height: 27px;
+            font-family: 'Open Sans', sans-serif;
+            padding-right: 25px;
+            font-size: 12px;
+        }
+        #sp1{
+            margin-left: 150px;
+            display: inline-block;
+            width: 95px;
+            padding-top: 10px;
+        }
+        #sp2{
+            display: inline-block;
+            color: white;
+            font-size: 15px;
+        }
+        #sp3{
+            
+            display: inline-block;
+            width: 95px;
+        }
+    </style>
+</head>
+<body>
+    <div id="one">
+        <div id="one1">
+            <button id="button" >X</button>  
+            &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            <img src="imags/twitter.jpg" alt="twitter image" width="50px" height="30px" >
+        </div>
+        <div id="one2">
+            Sign in to X
+        </div>
+        <form></form>
+        <button class="one3">
+            <img src="imags/google.png" alt="google image" width="12px" height="12px">
+            Sign in with google
+        </button>
+        <button class="one3" id="one4">
+            <img src="imags/appe.png" alt="google image" width="12px" height="12px">
+            Sign in with Apple
+        </button>
+        <div >
+            <span id="sp1"><hr></span>
+            <span id="sp2">or</span>
+            <span id="sp3"><hr></span>
+        </div>
+        <textarea name="info" id="info"  cols="27" rows="2" placeholder="Phone,email,or username"></textarea>
+        <button class="one3" id="one4">
+            
+            Next
+        </button>
+        <button id="one4" class="one6" >
+            
+            Forgot Password
+        </button>
+        <div class="one7">Don't have an account?<a href="">Sign up</a></div>
+        </form>
+    </div>
+</body>
+</html>
